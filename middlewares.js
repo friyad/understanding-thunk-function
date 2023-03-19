@@ -1,6 +1,6 @@
 const todosMiddleware = (store) => (next) => (action) => {
   if (typeof action === "function") {
-    console.log("I am inside of middleware");
+    // console.log("I am inside of middleware");
 
     return action(store.dispatch, store.getState);
   }

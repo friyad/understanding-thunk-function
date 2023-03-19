@@ -1,5 +1,5 @@
 const fetchTodos = async (dispatch, getStates) => {
-  console.log("I am inside of fetchTodos Thunk function");
+  //   console.log("I am inside of fetchTodos Thunk function");
 
   try {
     const response = await fetch(
@@ -11,7 +11,7 @@ const fetchTodos = async (dispatch, getStates) => {
       type: "todos/todoLoaded",
       payload: data,
     });
-    console.log("I just dispatch the todoLoaded action successfully");
+    // console.log("I just dispatch the todoLoaded action successfully");
   } catch (error) {
     console.log(error);
   }
