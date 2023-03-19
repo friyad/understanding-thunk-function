@@ -1,6 +1,6 @@
 const { createStore, applyMiddleware } = require("redux");
 const { todosMiddleware } = require("./middlewares");
-const { fetchTodos } = require("./ThunkFunctions");
+const { fetchTodos } = require("./thunkFunctions");
 
 // define a initial state
 const initialState = {
