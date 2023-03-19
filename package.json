@@ -1,0 +1,14 @@
+{
+  "name": "understanding-thunk-function",
+  "version": "1.0.0",
+  "description": "Understanding Redux Thunk Function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.2.1"
+  }
+}
